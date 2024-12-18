@@ -1,0 +1,7 @@
+.configProfileBtn {
+    width: 100%;
+    border: var(--border-default);
+    border-radius: 12px;
+    background-color: transparent;
+
+}

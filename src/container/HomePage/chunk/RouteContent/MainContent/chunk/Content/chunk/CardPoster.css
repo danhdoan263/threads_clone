@@ -1,0 +1,69 @@
+.cardPoster {
+  width: 100%;
+  height: fit-content;
+  padding: 12px 0;
+  border-top-width: 1px;
+  border-top-color: rgba(243, 245, 247, 0.15);
+  display: flex;
+  gap: 15px;
+}
+
+.posterHead {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(243, 245, 247, 0.15);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.posterHead img {
+  width: 36px;
+  height: 100%;
+}
+
+.posterMid {
+  width: 90%;
+}
+
+.poserUserName {
+  font-weight: bold;
+}
+
+.poserUserName span {
+  font-weight: lighter;
+  color: #777777;
+}
+
+.posterContent {
+  font-size: 15px;
+}
+
+.posterAction {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+}
+
+
+.posterAction span {
+  width: 59px;
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.posterAction span:hover {
+  border-radius: 20px;
+  background-color: #9e9e9e27;
+}
+
+.posterAction span img {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) saturate(100%) invert(94%) sepia(0%) saturate(108%) hue-rotate(130deg) brightness(91%) contrast(97%);
+}
+
+.posterEnd {}

@@ -1,0 +1,49 @@
+.SuggesstionItem {
+  display: flex;
+  padding-top: 16px;
+}
+.itemHeader {
+  width: 46px;
+  height: 36px;
+  margin-top: 4px;
+  border: var(--border-default);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.itemHeader img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.itemContent {
+  width: 100%;
+  padding-bottom: 8px;
+
+  margin-left: 12px;
+  border-bottom: var(--border-default);
+  border-bottom-width: 1px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contentUsername {
+  font-weight: bold;
+}
+.contentFullname {
+  font-weight: lighter;
+  color: var(--secondary-color);
+}
+.contentFollower {
+  margin-top: 4px;
+}
+.itemButton {
+  border-bottom: var(--border-default);
+  border-bottom-width: 1px;
+}
+.itemButton button {
+  background-color: transparent;
+  border: var(--border-default);
+  border-radius: 12px;
+  font-size: large;
+}

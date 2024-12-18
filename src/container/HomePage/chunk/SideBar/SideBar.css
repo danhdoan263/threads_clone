@@ -1,0 +1,74 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+  background-color: #0a0a0a;
+  z-index: 6;
+}
+
+.sideBar-top {}
+
+.sideBar-mid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 5px;
+}
+
+.btn-sideBar img {
+  width: 24px;
+  height: 24px;
+  color: #f3f5f7;
+  pointer-events: none;
+}
+
+.btn-sideBar {
+  color: grey;
+  background-color: transparent;
+
+  border: none;
+  border-radius: 10px;
+
+  transition: all;
+}
+
+.btn-sideBar:hover {
+  background-color: rgba(128, 128, 128, 0.295);
+  filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(3578%) hue-rotate(150deg) brightness(113%) contrast(117%);
+}
+
+.active {
+  background-color: rgba(128, 128, 128, 0.295);
+  filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(3578%) hue-rotate(150deg) brightness(113%) contrast(117%);
+}
+
+
+.sideBar-bottom {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sideBar-bottom img {
+  width: 36px;
+  height: 36px;
+}
+
+.sideBar-bottom img:hover {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(3578%) hue-rotate(150deg) brightness(113%) contrast(117%);
+}
+
+.showModal {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  z-index: 6;
+}

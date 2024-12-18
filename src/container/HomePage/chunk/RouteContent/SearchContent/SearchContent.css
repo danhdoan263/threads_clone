@@ -1,0 +1,36 @@
+.searchContent {
+  margin-left: var(--sideBar-width);
+}
+
+.SearchContent {
+}
+
+.ContentHeader {
+  position: relative;
+}
+
+.ContentHeader input {
+  width: 100%;
+  padding: 12px 48px;
+  background-color: #0a0a0a;
+  color: #f3f5f7;
+
+  border-radius: 16px;
+  border: var(--border-default);
+}
+
+.ico_search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transform: translate(200%, 40%);
+}
+
+.dropdownOption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(-200%, 40%);
+}

@@ -1,0 +1,58 @@
+.userHeaderSub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userFollower {
+  display: flex;
+  position: relative;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.userFollower span {
+  margin-left: 50px;
+}
+
+.followerIco {
+  position: absolute;
+  z-index: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgb(59, 26, 26);
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.followerIco:nth-child(2) {
+  z-index: 3;
+  margin-left: 13px;
+}
+
+.followerIco:nth-child(3) {
+  z-index: 4;
+  margin-left: 27px;
+}
+
+.followerIco img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.userLink {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.userLink span {
+  width: 36px;
+  padding: 2px 5px;
+}
+
+.userLink img {
+  width: 24px;
+  height: 24px;
+}

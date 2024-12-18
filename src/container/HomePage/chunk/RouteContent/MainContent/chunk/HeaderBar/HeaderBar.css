@@ -1,0 +1,75 @@
+.HeaderBar {
+  position: fixed;
+  background-color: #0A0A0A;
+
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-color: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  z-index: 6;
+
+}
+
+.HeaderBar p {
+  font-weight: bold;
+}
+
+
+.ico_down {
+  width: 23px;
+  height: 23px;
+}
+
+.ico_down:hover {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(0%) saturate(3578%) hue-rotate(150deg) brightness(113%) contrast(117%);
+}
+
+.DropdownMenuContent {
+  width: 208px;
+  padding: 8px;
+
+  color: #F3F5F7;
+  fill: #385898;
+  background-color: #181818;
+  border: none;
+
+  border-radius: 12px;
+  outline: rgb(255, 0, 0) dashed 0.909091px;
+}
+
+.DropdownMenuItem {
+  height: 52px;
+  line-height: 21px;
+  font-size: 15px;
+  border-radius: 12px;
+
+  justify-content: center;
+  margin-bottom: 5px;
+
+  color: #F3F5F7;
+}
+
+.DropdownMenuItem:hover {
+  background-color: #ffffff54;
+  color: #F3F5F7;
+  cursor: pointer;
+}
+
+.DropdownMenuLabel {
+  font-size: 15px;
+  border-radius: 12px;
+
+  height: 52px;
+  text-align: center;
+  align-content: center;
+}
+
+.DropdownMenuLabel:hover {
+  background-color: #ffffff54;
+}

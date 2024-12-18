@@ -1,0 +1,31 @@
+.userHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap15);
+}
+
+.userFullname {
+  font-size: xx-large;
+}
+
+.userBio {
+}
+
+.userImage {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: var(--border-default);
+  overflow: hidden;
+}
+
+.userImage img {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+}

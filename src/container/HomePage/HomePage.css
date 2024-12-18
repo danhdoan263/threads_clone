@@ -1,0 +1,14 @@
+.sideBar {
+  position: fixed;
+  width: 76px;
+  height: 100%;
+}
+
+.HomePage {
+  display: flex;
+}
+
+.MainContent {
+  width: 100%;
+  margin-left: 76px;
+}

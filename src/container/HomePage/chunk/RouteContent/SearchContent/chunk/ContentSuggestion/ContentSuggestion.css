@@ -1,0 +1,7 @@
+.ContentSuggestion {
+  padding: 24px 0;
+}
+
+.suggestionText {
+  color: var(--secondary-color);
+}

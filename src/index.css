@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: normal;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(10, 10, 10);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --sideBar-width: 76px;
+  --btn-width: 76px;
+  --gap15: 15px;
+  --border-radius: 12px;
+  --border-default: 1px solid rgba(243, 245, 247, 0.15);
+  --modal-color: #181818;
+  --background-color: rgba(7, 7, 7, 0.39);
+
+  --primary-color: #F3F5F7;
+  --secondary-color: #777777;
+}
